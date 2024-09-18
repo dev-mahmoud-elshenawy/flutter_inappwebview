@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.service_worker;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.service_worker;
 
 import android.os.Build;
 
@@ -9,12 +9,12 @@ import androidx.webkit.ServiceWorkerControllerCompat;
 import androidx.webkit.ServiceWorkerWebSettingsCompat;
 import androidx.webkit.WebViewFeature;
 
-import com.pichillilorenzo.flutter_inappwebview_android.Util;
-import com.pichillilorenzo.flutter_inappwebview_android.types.BaseCallbackResultImpl;
-import com.pichillilorenzo.flutter_inappwebview_android.types.ChannelDelegateImpl;
-import com.pichillilorenzo.flutter_inappwebview_android.types.SyncBaseCallbackResultImpl;
-import com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceRequestExt;
-import com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceResponseExt;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.Util;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.BaseCallbackResultImpl;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ChannelDelegateImpl;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.SyncBaseCallbackResultImpl;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.WebResourceRequestExt;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.WebResourceResponseExt;
 
 import java.util.Map;
 

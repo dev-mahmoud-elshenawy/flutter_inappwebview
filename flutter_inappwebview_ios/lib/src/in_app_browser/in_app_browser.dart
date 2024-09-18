@@ -73,7 +73,7 @@ class IOSInAppBrowser extends PlatformInAppBrowser with ChannelController {
       params as IOSInAppBrowserCreationParams;
 
   static const MethodChannel _staticChannel =
-      const MethodChannel('com.pichillilorenzo/flutter_inappbrowser');
+      const MethodChannel('com.dev-mahmoud-elshenawy/flutter_inappbrowser');
 
   ContextMenu? _contextMenu;
 
@@ -90,7 +90,7 @@ class IOSInAppBrowser extends PlatformInAppBrowser with ChannelController {
   }
 
   _init() {
-    channel = MethodChannel('com.pichillilorenzo/flutter_inappbrowser_$id');
+    channel = MethodChannel('com.dev-mahmoud-elshenawy/flutter_inappbrowser_$id');
     handler = _handleMethod;
     initMethodCallHandler();
 

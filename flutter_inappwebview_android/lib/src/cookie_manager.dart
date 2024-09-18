@@ -39,7 +39,7 @@ class AndroidCookieManager extends PlatformCookieManager
                   .fromPlatformCookieManagerCreationParams(params),
         ) {
     channel = const MethodChannel(
-        'com.pichillilorenzo/flutter_inappwebview_cookiemanager');
+        'com.dev-mahmoud-elshenawy/flutter_inappwebview_cookiemanager');
     handler = handleMethod;
     initMethodCallHandler();
   }

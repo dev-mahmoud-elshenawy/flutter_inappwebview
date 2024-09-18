@@ -1,7 +1,7 @@
-package com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.plugin_scripts_js;
 
-import com.pichillilorenzo.flutter_inappwebview_android.types.PluginScript;
-import com.pichillilorenzo.flutter_inappwebview_android.types.UserScriptInjectionTime;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.PluginScript;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.UserScriptInjectionTime;
 
 public class JavaScriptBridgeJS {
   public static final String JAVASCRIPT_BRIDGE_NAME = "flutter_inappwebview";

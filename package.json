@@ -18,12 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pichillilorenzo/flutter_inappwebview.git"
+    "url": "git+https://github.com/dev-mahmoud-elshenawy/flutter_inappwebview.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pichillilorenzo/flutter_inappwebview/issues"
+    "url": "https://github.com/dev-mahmoud-elshenawy/flutter_inappwebview/issues"
   },
-  "homepage": "https://github.com/pichillilorenzo/flutter_inappwebview#readme"
+  "homepage": "https://github.com/dev-mahmoud-elshenawy/flutter_inappwebview#readme"
 }

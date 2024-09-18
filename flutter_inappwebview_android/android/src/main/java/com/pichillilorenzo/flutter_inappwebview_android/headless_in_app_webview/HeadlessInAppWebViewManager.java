@@ -19,16 +19,16 @@
  *
  */
 
-package com.pichillilorenzo.flutter_inappwebview_android.headless_in_app_webview;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.headless_in_app_webview;
 
 import android.content.Context;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
 
-import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
-import com.pichillilorenzo.flutter_inappwebview_android.types.ChannelDelegateImpl;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.FlutterWebView;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ChannelDelegateImpl;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.in_app_webview.FlutterWebView;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -40,7 +40,7 @@ import io.flutter.plugin.common.MethodChannel.Result;
 
 public class HeadlessInAppWebViewManager extends ChannelDelegateImpl {
   protected static final String LOG_TAG = "HeadlessInAppWebViewManager";
-  public static final String METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_headless_inappwebview";
+  public static final String METHOD_CHANNEL_NAME = "com.dev-mahmoud-elshenawy/flutter_headless_inappwebview";
   
   public final Map<String, HeadlessInAppWebView> webViews = new HashMap<>();
   @Nullable

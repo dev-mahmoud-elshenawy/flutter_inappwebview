@@ -13,7 +13,7 @@ class PlatformUtil extends ChannelController {
     this._messenger = messenger;
 
     channel = MethodChannel(
-      'com.pichillilorenzo/flutter_inappwebview_platformutil',
+      'com.dev-mahmoud-elshenawy/flutter_inappwebview_platformutil',
       const StandardMethodCodec(),
       _messenger,
     );

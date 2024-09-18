@@ -1,18 +1,18 @@
-package com.pichillilorenzo.flutter_inappwebview_android.tracing;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.tracing;
 
 import androidx.annotation.Nullable;
 import androidx.webkit.TracingConfig;
 import androidx.webkit.TracingController;
 import androidx.webkit.WebViewFeature;
 
-import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
-import com.pichillilorenzo.flutter_inappwebview_android.types.Disposable;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.Disposable;
 
 import io.flutter.plugin.common.MethodChannel;
 
 public class TracingControllerManager implements Disposable {
   protected static final String LOG_TAG = "TracingControllerMan";
-  public static final String METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_inappwebview_tracingcontroller";
+  public static final String METHOD_CHANNEL_NAME = "com.dev-mahmoud-elshenawy/flutter_inappwebview_tracingcontroller";
 
   @Nullable
   public TracingControllerChannelDelegate channelDelegate;

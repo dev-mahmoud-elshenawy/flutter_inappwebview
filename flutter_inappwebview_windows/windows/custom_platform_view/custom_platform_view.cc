@@ -152,7 +152,7 @@ namespace flutter_inappwebview_plugin
     //  view->SetSurfaceSize(size.width, size.height);
     //});
 
-    const auto method_channel_name = "com.pichillilorenzo/custom_platform_view_" + std::to_string(texture_id_);
+    const auto method_channel_name = "com.dev-mahmoud-elshenawy/custom_platform_view_" + std::to_string(texture_id_);
     method_channel_ =
       std::make_unique<flutter::MethodChannel<flutter::EncodableValue>>(
         messenger, method_channel_name,
@@ -162,7 +162,7 @@ namespace flutter_inappwebview_plugin
         HandleMethodCall(call, std::move(result));
       });
 
-    const auto event_channel_name = "com.pichillilorenzo/custom_platform_view_" + std::to_string(texture_id_) + "_events";
+    const auto event_channel_name = "com.dev-mahmoud-elshenawy/custom_platform_view_" + std::to_string(texture_id_) + "_events";
     event_channel_ =
       std::make_unique<flutter::EventChannel<flutter::EncodableValue>>(
         messenger, event_channel_name,

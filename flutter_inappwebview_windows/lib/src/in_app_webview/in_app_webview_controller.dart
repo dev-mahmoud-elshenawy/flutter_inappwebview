@@ -100,7 +100,7 @@ class WindowsInAppWebViewController extends PlatformInAppWebViewController
             ? params
             : WindowsInAppWebViewControllerCreationParams
                 .fromPlatformInAppWebViewControllerCreationParams(params)) {
-    channel = MethodChannel('com.pichillilorenzo/flutter_inappwebview_$id');
+    channel = MethodChannel('com.dev-mahmoud-elshenawy/flutter_inappwebview_$id');
     handler = handleMethod;
     initMethodCallHandler();
 

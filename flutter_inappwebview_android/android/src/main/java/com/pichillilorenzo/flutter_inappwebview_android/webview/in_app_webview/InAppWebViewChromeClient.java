@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.in_app_webview;
 
 import android.Manifest;
 import android.annotation.TargetApi;
@@ -42,19 +42,19 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.FileProvider;
 
-import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFileProvider;
-import com.pichillilorenzo.flutter_inappwebview_android.types.CreateWindowAction;
-import com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.ActivityResultListener;
-import com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserDelegate;
-import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
-import com.pichillilorenzo.flutter_inappwebview_android.types.GeolocationPermissionShowPromptResponse;
-import com.pichillilorenzo.flutter_inappwebview_android.types.JsAlertResponse;
-import com.pichillilorenzo.flutter_inappwebview_android.types.JsBeforeUnloadResponse;
-import com.pichillilorenzo.flutter_inappwebview_android.types.JsConfirmResponse;
-import com.pichillilorenzo.flutter_inappwebview_android.types.JsPromptResponse;
-import com.pichillilorenzo.flutter_inappwebview_android.types.PermissionResponse;
-import com.pichillilorenzo.flutter_inappwebview_android.types.URLRequest;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.InAppWebViewFileProvider;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.CreateWindowAction;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.in_app_browser.ActivityResultListener;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.in_app_browser.InAppBrowserDelegate;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.GeolocationPermissionShowPromptResponse;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.JsAlertResponse;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.JsBeforeUnloadResponse;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.JsConfirmResponse;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.JsPromptResponse;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.PermissionResponse;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.URLRequest;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.WebViewChannelDelegate;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

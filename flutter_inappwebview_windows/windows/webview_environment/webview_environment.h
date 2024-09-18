@@ -15,7 +15,7 @@ namespace flutter_inappwebview_plugin
   {
   public:
     static inline const wchar_t* CLASS_NAME = L"WebViewEnvironment";
-    static inline const std::string METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_webview_environment_";
+    static inline const std::string METHOD_CHANNEL_NAME_PREFIX = "com.dev-mahmoud-elshenawy/flutter_webview_environment_";
 
     const FlutterInappwebviewWindowsPlugin* plugin;
     std::string id;

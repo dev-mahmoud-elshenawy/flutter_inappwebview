@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.webview;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
@@ -15,9 +15,9 @@ import androidx.annotation.Nullable;
 import androidx.webkit.WebViewCompat;
 import androidx.webkit.WebViewFeature;
 
-import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
-import com.pichillilorenzo.flutter_inappwebview_android.types.ChannelDelegateImpl;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.FlutterWebView;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ChannelDelegateImpl;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.in_app_webview.FlutterWebView;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -31,7 +31,7 @@ import io.flutter.plugin.common.MethodChannel;
 
 public class InAppWebViewManager extends ChannelDelegateImpl {
   protected static final String LOG_TAG = "InAppWebViewManager";
-  public static final String METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_inappwebview_manager";
+  public static final String METHOD_CHANNEL_NAME = "com.dev-mahmoud-elshenawy/flutter_inappwebview_manager";
   
   @Nullable
   public InAppWebViewFlutterPlugin plugin;

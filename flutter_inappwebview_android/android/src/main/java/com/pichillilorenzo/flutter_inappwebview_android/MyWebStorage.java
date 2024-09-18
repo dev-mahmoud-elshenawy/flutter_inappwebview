@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android;
 
 import android.webkit.ValueCallback;
 import android.webkit.WebStorage;
@@ -6,7 +6,7 @@ import android.webkit.WebStorage;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.pichillilorenzo.flutter_inappwebview_android.types.ChannelDelegateImpl;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ChannelDelegateImpl;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -18,7 +18,7 @@ import io.flutter.plugin.common.MethodChannel;
 
 public class MyWebStorage extends ChannelDelegateImpl {
   protected static final String LOG_TAG = "MyWebStorage";
-  public static final String METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_inappwebview_webstoragemanager";
+  public static final String METHOD_CHANNEL_NAME = "com.dev-mahmoud-elshenawy/flutter_inappwebview_webstoragemanager";
 
   @Nullable
   public static WebStorage webStorageManager;

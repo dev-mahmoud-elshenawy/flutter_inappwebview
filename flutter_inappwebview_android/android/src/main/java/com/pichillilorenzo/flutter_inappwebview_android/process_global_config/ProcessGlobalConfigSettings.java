@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.process_global_config;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.process_global_config;
 
 import android.content.Context;
 
@@ -7,7 +7,7 @@ import androidx.annotation.Nullable;
 import androidx.webkit.ProcessGlobalConfig;
 import androidx.webkit.WebViewFeature;
 
-import com.pichillilorenzo.flutter_inappwebview_android.ISettings;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.ISettings;
 
 import java.io.File;
 import java.util.HashMap;

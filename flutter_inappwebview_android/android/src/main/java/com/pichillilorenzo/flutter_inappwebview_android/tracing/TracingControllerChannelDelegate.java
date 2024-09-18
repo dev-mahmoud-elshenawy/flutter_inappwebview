@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.tracing;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.tracing;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -6,7 +6,7 @@ import androidx.webkit.TracingConfig;
 import androidx.webkit.TracingController;
 import androidx.webkit.WebViewFeature;
 
-import com.pichillilorenzo.flutter_inappwebview_android.types.ChannelDelegateImpl;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ChannelDelegateImpl;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;

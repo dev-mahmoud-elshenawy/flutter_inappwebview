@@ -10,7 +10,7 @@ import FlutterMacOS
 
 public class FindInteractionController: NSObject, Disposable {
     
-    static var METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappwebview_find_interaction_";
+    static var METHOD_CHANNEL_NAME_PREFIX = "com.dev-mahmoud-elshenawy/flutter_inappwebview_find_interaction_";
     var plugin: InAppWebViewFlutterPlugin?
     var webView: InAppWebView?
     var channelDelegate: FindInteractionChannelDelegate?

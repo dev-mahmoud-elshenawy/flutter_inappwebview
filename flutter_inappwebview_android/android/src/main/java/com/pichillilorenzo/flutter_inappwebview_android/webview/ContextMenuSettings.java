@@ -1,8 +1,8 @@
-package com.pichillilorenzo.flutter_inappwebview_android.webview;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview;
 
 import androidx.annotation.NonNull;
 
-import com.pichillilorenzo.flutter_inappwebview_android.ISettings;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.ISettings;
 
 import java.util.HashMap;
 import java.util.Map;

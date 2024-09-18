@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.chrome_custom_tabs;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,9 +8,9 @@ import androidx.annotation.Nullable;
 import androidx.browser.customtabs.CustomTabsClient;
 import androidx.browser.customtabs.CustomTabsIntent;
 
-import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
-import com.pichillilorenzo.flutter_inappwebview_android.Util;
-import com.pichillilorenzo.flutter_inappwebview_android.types.ChannelDelegateImpl;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.Util;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ChannelDelegateImpl;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -25,7 +25,7 @@ import io.flutter.plugin.common.MethodChannel;
 
 public class ChromeSafariBrowserManager extends ChannelDelegateImpl {
   protected static final String LOG_TAG = "ChromeBrowserManager";
-  public static final String METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_chromesafaribrowser";
+  public static final String METHOD_CHANNEL_NAME = "com.dev-mahmoud-elshenawy/flutter_chromesafaribrowser";
   
   @Nullable
   public InAppWebViewFlutterPlugin plugin;

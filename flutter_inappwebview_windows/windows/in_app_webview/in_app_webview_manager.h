@@ -20,7 +20,7 @@ namespace flutter_inappwebview_plugin
   class InAppWebViewManager : public ChannelDelegate
   {
   public:
-    static inline const std::string METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_inappwebview";
+    static inline const std::string METHOD_CHANNEL_NAME = "com.dev-mahmoud-elshenawy/flutter_inappwebview";
 
     const FlutterInappwebviewWindowsPlugin* plugin;
     std::map<uint64_t, std::unique_ptr<CustomPlatformView>> webViews;

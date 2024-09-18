@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android;
 
 import android.content.Context;
 import android.content.res.AssetManager;
@@ -23,8 +23,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import com.pichillilorenzo.flutter_inappwebview_android.types.Size2D;
-import com.pichillilorenzo.flutter_inappwebview_android.types.SyncBaseCallbackResultImpl;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.Size2D;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.SyncBaseCallbackResultImpl;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

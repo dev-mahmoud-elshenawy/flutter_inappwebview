@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.credential_database;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.credential_database;
 
 import android.os.Build;
 import android.webkit.WebViewDatabase;
@@ -7,10 +7,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
-import com.pichillilorenzo.flutter_inappwebview_android.types.ChannelDelegateImpl;
-import com.pichillilorenzo.flutter_inappwebview_android.types.URLCredential;
-import com.pichillilorenzo.flutter_inappwebview_android.types.URLProtectionSpace;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ChannelDelegateImpl;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.URLCredential;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.URLProtectionSpace;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -23,7 +23,7 @@ import io.flutter.plugin.common.MethodChannel;
 @RequiresApi(api = Build.VERSION_CODES.O)
 public class CredentialDatabaseHandler extends ChannelDelegateImpl {
   protected static final String LOG_TAG = "CredentialDatabaseHandler";
-  public static final String METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_inappwebview_credential_database";
+  public static final String METHOD_CHANNEL_NAME = "com.dev-mahmoud-elshenawy/flutter_inappwebview_credential_database";
 
   @Nullable
   public static CredentialDatabase credentialDatabase;

@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android;
 
 import android.app.Activity;
 import android.content.Context;
@@ -7,18 +7,18 @@ import android.os.Build;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeSafariBrowserManager;
-import com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.NoHistoryCustomTabsActivityCallbacks;
-import com.pichillilorenzo.flutter_inappwebview_android.credential_database.CredentialDatabaseHandler;
-import com.pichillilorenzo.flutter_inappwebview_android.headless_in_app_webview.HeadlessInAppWebViewManager;
-import com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserManager;
-import com.pichillilorenzo.flutter_inappwebview_android.print_job.PrintJobManager;
-import com.pichillilorenzo.flutter_inappwebview_android.process_global_config.ProcessGlobalConfigManager;
-import com.pichillilorenzo.flutter_inappwebview_android.proxy.ProxyManager;
-import com.pichillilorenzo.flutter_inappwebview_android.service_worker.ServiceWorkerManager;
-import com.pichillilorenzo.flutter_inappwebview_android.tracing.TracingControllerManager;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.FlutterWebViewFactory;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.InAppWebViewManager;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.chrome_custom_tabs.ChromeSafariBrowserManager;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.chrome_custom_tabs.NoHistoryCustomTabsActivityCallbacks;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.credential_database.CredentialDatabaseHandler;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.headless_in_app_webview.HeadlessInAppWebViewManager;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.in_app_browser.InAppBrowserManager;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.print_job.PrintJobManager;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.process_global_config.ProcessGlobalConfigManager;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.proxy.ProxyManager;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.service_worker.ServiceWorkerManager;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.tracing.TracingControllerManager;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.FlutterWebViewFactory;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.InAppWebViewManager;
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import io.flutter.embedding.engine.plugins.activity.ActivityAware;
@@ -91,7 +91,7 @@ public class InAppWebViewFlutterPlugin implements FlutterPlugin, ActivityAware {
     // Shared.activity could be null or not.
     // It depends on who is called first between onAttachedToEngine event and onAttachedToActivity event.
     //
-    // See https://github.com/pichillilorenzo/flutter_inappwebview/issues/390#issuecomment-647039084
+    // See https://github.com/dev-mahmoud-elshenawy/flutter_inappwebview/issues/390#issuecomment-647039084
     onAttachedToEngine(
             binding.getApplicationContext(), binding.getBinaryMessenger(), this.activity, binding.getPlatformViewRegistry(), null);
   }

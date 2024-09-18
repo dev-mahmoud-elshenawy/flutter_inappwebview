@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.types;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types;
 
 import android.os.Build;
 import android.webkit.WebResourceResponse;
@@ -6,7 +6,7 @@ import android.webkit.WebResourceResponse;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.pichillilorenzo.flutter_inappwebview_android.Util;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.Util;
 
 import java.util.Arrays;
 import java.util.HashMap;

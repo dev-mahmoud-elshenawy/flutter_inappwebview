@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.webview;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview;
 
 import android.os.Build;
 import android.os.Handler;
@@ -9,10 +9,10 @@ import android.webkit.ValueCallback;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.pichillilorenzo.flutter_inappwebview_android.print_job.PrintJobController;
-import com.pichillilorenzo.flutter_inappwebview_android.print_job.PrintJobSettings;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView;
-import com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js.JavaScriptBridgeJS;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.print_job.PrintJobController;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.print_job.PrintJobSettings;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.in_app_webview.InAppWebView;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.plugin_scripts_js.JavaScriptBridgeJS;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -50,7 +50,7 @@ public class JavaScriptBridgeInterface {
     }
 
     // java.lang.RuntimeException: Methods marked with @UiThread must be executed on the main thread.
-    // https://github.com/pichillilorenzo/flutter_inappwebview/issues/98
+    // https://github.com/dev-mahmoud-elshenawy/flutter_inappwebview/issues/98
     final Handler handler = new Handler(inAppWebView.getWebViewLooper());
     handler.post(new Runnable() {
       @Override

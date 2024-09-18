@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.types;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types;
 
 import android.net.http.SslCertificate;
 import android.net.http.SslError;

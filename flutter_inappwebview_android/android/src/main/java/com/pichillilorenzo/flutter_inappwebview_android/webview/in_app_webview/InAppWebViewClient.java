@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.in_app_webview;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -29,26 +29,26 @@ import androidx.annotation.RequiresApi;
 import androidx.webkit.WebResourceRequestCompat;
 import androidx.webkit.WebViewFeature;
 
-import com.pichillilorenzo.flutter_inappwebview_android.Util;
-import com.pichillilorenzo.flutter_inappwebview_android.credential_database.CredentialDatabase;
-import com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserDelegate;
-import com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js.JavaScriptBridgeJS;
-import com.pichillilorenzo.flutter_inappwebview_android.types.ClientCertChallenge;
-import com.pichillilorenzo.flutter_inappwebview_android.types.ClientCertResponse;
-import com.pichillilorenzo.flutter_inappwebview_android.types.CustomSchemeResponse;
-import com.pichillilorenzo.flutter_inappwebview_android.types.HttpAuthResponse;
-import com.pichillilorenzo.flutter_inappwebview_android.types.HttpAuthenticationChallenge;
-import com.pichillilorenzo.flutter_inappwebview_android.types.NavigationAction;
-import com.pichillilorenzo.flutter_inappwebview_android.types.NavigationActionPolicy;
-import com.pichillilorenzo.flutter_inappwebview_android.types.ServerTrustAuthResponse;
-import com.pichillilorenzo.flutter_inappwebview_android.types.ServerTrustChallenge;
-import com.pichillilorenzo.flutter_inappwebview_android.types.URLCredential;
-import com.pichillilorenzo.flutter_inappwebview_android.types.URLProtectionSpace;
-import com.pichillilorenzo.flutter_inappwebview_android.types.URLRequest;
-import com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceErrorExt;
-import com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceRequestExt;
-import com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceResponseExt;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.Util;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.credential_database.CredentialDatabase;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.in_app_browser.InAppBrowserDelegate;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.plugin_scripts_js.JavaScriptBridgeJS;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ClientCertChallenge;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ClientCertResponse;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.CustomSchemeResponse;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.HttpAuthResponse;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.HttpAuthenticationChallenge;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.NavigationAction;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.NavigationActionPolicy;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ServerTrustAuthResponse;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ServerTrustChallenge;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.URLCredential;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.URLProtectionSpace;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.URLRequest;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.WebResourceErrorExt;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.WebResourceRequestExt;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.WebResourceResponseExt;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.WebViewChannelDelegate;
 
 import java.io.ByteArrayInputStream;
 import java.net.URI;
@@ -588,7 +588,7 @@ public class InAppWebViewClient extends WebViewClient {
     final InAppWebView webView = (InAppWebView) view;
     final WebViewChannelDelegate.SafeBrowsingHitCallback resultCallback = new WebViewChannelDelegate.SafeBrowsingHitCallback() {
       @Override
-      public boolean nonNullSuccess(@NonNull com.pichillilorenzo.flutter_inappwebview_android.types.SafeBrowsingResponse response) {
+      public boolean nonNullSuccess(@NonNull com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.SafeBrowsingResponse response) {
         Integer action = response.getAction();
         if (action != null) {
           boolean report = response.isReport();
@@ -611,7 +611,7 @@ public class InAppWebViewClient extends WebViewClient {
       }
 
       @Override
-      public void defaultBehaviour(@Nullable com.pichillilorenzo.flutter_inappwebview_android.types.SafeBrowsingResponse result) {
+      public void defaultBehaviour(@Nullable com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.SafeBrowsingResponse result) {
         InAppWebViewClient.super.onSafeBrowsingHit(view, request, threatType, callback);
       }
 

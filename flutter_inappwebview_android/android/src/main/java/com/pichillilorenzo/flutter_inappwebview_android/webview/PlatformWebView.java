@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.webview;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview;
 
 import java.util.HashMap;
 

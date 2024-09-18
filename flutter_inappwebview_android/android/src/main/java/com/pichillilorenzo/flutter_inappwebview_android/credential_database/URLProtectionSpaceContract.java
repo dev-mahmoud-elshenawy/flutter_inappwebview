@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.credential_database;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.credential_database;
 
 import android.provider.BaseColumns;
 

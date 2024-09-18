@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.service_worker;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.service_worker;
 
 import android.os.Build;
 import android.util.Log;
@@ -12,10 +12,10 @@ import androidx.webkit.ServiceWorkerClientCompat;
 import androidx.webkit.ServiceWorkerControllerCompat;
 import androidx.webkit.WebViewFeature;
 
-import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
-import com.pichillilorenzo.flutter_inappwebview_android.types.Disposable;
-import com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceRequestExt;
-import com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceResponseExt;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.Disposable;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.WebResourceRequestExt;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.WebResourceResponseExt;
 
 import java.io.ByteArrayInputStream;
 import java.util.Map;
@@ -25,7 +25,7 @@ import io.flutter.plugin.common.MethodChannel;
 @RequiresApi(api = Build.VERSION_CODES.N)
 public class ServiceWorkerManager implements Disposable {
   protected static final String LOG_TAG = "ServiceWorkerManager";
-  public static final String METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_inappwebview_serviceworkercontroller";
+  public static final String METHOD_CHANNEL_NAME = "com.dev-mahmoud-elshenawy/flutter_inappwebview_serviceworkercontroller";
 
   @Nullable
   public ServiceWorkerChannelDelegate channelDelegate;
@@ -50,7 +50,7 @@ public class ServiceWorkerManager implements Disposable {
   public void setServiceWorkerClient(Boolean isNull) {
     if (serviceWorkerController != null) {
       // set ServiceWorkerClient as null makes the app crashes, so just set a dummy ServiceWorkerClientCompat.
-      // https://github.com/pichillilorenzo/flutter_inappwebview/issues/1151
+      // https://github.com/dev-mahmoud-elshenawy/flutter_inappwebview/issues/1151
       serviceWorkerController.setServiceWorkerClient(isNull ? dummyServiceWorkerClientCompat() : new ServiceWorkerClientCompat() {
         @Nullable
         @Override

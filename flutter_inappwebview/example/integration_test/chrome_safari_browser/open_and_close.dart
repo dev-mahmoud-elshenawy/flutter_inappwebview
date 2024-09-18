@@ -24,10 +24,10 @@ void openAndClose() {
               AndroidResource.anim(
                   name: "abc_slide_in_top",
                   defPackage:
-                      "com.pichillilorenzo.flutter_inappwebviewexample"),
+                      "com.dev-mahmoud-elshenawy.flutter_inappwebviewexample"),
               AndroidResource.anim(
                   name: "abc_slide_out_top",
-                  defPackage: "com.pichillilorenzo.flutter_inappwebviewexample")
+                  defPackage: "com.dev-mahmoud-elshenawy.flutter_inappwebviewexample")
             ],
             keepAliveEnabled: true,
             dismissButtonStyle: DismissButtonStyle.CLOSE,
@@ -40,7 +40,7 @@ void openAndClose() {
             activityButton: ActivityButton(
                 templateImage: UIImage(systemName: "sun.max"),
                 extensionIdentifier:
-                    "com.pichillilorenzo.flutterinappwebview-ios-example.test")));
+                    "com.dev-mahmoud-elshenawy.flutterinappwebview-ios-example.test")));
     await chromeSafariBrowser.opened.future;
     expect(chromeSafariBrowser.isOpened(), true);
     expect(() async {

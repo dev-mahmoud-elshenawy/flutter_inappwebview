@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.print_job;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.print_job;
 
 import android.os.Build;
 
@@ -6,8 +6,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import com.pichillilorenzo.flutter_inappwebview_android.types.ChannelDelegateImpl;
-import com.pichillilorenzo.flutter_inappwebview_android.types.PrintJobInfoExt;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ChannelDelegateImpl;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.PrintJobInfoExt;
 
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;

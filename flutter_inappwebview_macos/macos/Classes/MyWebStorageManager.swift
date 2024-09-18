@@ -10,7 +10,7 @@ import WebKit
 import FlutterMacOS
 
 public class MyWebStorageManager: ChannelDelegate {
-    static let METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_inappwebview_webstoragemanager"
+    static let METHOD_CHANNEL_NAME = "com.dev-mahmoud-elshenawy/flutter_inappwebview_webstoragemanager"
     var plugin: InAppWebViewFlutterPlugin?
     static var websiteDataStore = WKWebsiteDataStore.default()
     

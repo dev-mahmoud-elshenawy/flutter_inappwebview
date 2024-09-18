@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.in_app_webview;
 
 import static android.webkit.WebSettings.LayoutAlgorithm.NARROW_COLUMNS;
 import static android.webkit.WebSettings.LayoutAlgorithm.NORMAL;
@@ -13,9 +13,9 @@ import androidx.annotation.Nullable;
 import androidx.webkit.WebSettingsCompat;
 import androidx.webkit.WebViewFeature;
 
-import com.pichillilorenzo.flutter_inappwebview_android.ISettings;
-import com.pichillilorenzo.flutter_inappwebview_android.types.PreferredContentModeOptionType;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.InAppWebViewInterface;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.ISettings;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.PreferredContentModeOptionType;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.InAppWebViewInterface;
 
 import java.util.ArrayList;
 import java.util.HashMap;

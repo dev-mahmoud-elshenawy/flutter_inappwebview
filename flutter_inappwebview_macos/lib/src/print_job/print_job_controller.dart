@@ -37,7 +37,7 @@ class MacOSPrintJobController extends PlatformPrintJobController
         ) {
     onComplete = params.onComplete;
     channel = MethodChannel(
-        'com.pichillilorenzo/flutter_inappwebview_printjobcontroller_${params.id}');
+        'com.dev-mahmoud-elshenawy/flutter_inappwebview_printjobcontroller_${params.id}');
     handler = _handleMethod;
     initMethodCallHandler();
   }

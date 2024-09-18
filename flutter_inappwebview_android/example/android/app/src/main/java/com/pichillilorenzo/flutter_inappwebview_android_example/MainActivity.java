@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android_example;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android_example;
 
 import io.flutter.embedding.android.FlutterActivity;
 

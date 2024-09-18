@@ -1,10 +1,10 @@
-package com.pichillilorenzo.flutter_inappwebview_android.find_interaction;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.find_interaction;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.pichillilorenzo.flutter_inappwebview_android.types.ChannelDelegateImpl;
-import com.pichillilorenzo.flutter_inappwebview_android.types.FindSession;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ChannelDelegateImpl;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.FindSession;
 
 import java.util.HashMap;
 import java.util.Map;

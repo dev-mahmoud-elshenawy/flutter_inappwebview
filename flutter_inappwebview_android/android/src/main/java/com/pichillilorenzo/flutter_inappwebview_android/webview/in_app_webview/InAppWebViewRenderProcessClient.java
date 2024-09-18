@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.in_app_webview;
 
 import android.util.Log;
 import android.webkit.WebView;
@@ -9,7 +9,7 @@ import androidx.webkit.WebViewFeature;
 import androidx.webkit.WebViewRenderProcess;
 import androidx.webkit.WebViewRenderProcessClient;
 
-import com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.WebViewChannelDelegate;
 
 public class InAppWebViewRenderProcessClient extends WebViewRenderProcessClient {
 

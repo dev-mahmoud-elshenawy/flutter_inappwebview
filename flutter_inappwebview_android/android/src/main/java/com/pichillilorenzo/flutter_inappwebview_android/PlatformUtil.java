@@ -1,11 +1,11 @@
-package com.pichillilorenzo.flutter_inappwebview_android;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android;
 
 import android.os.Build;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.pichillilorenzo.flutter_inappwebview_android.types.ChannelDelegateImpl;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ChannelDelegateImpl;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -17,7 +17,7 @@ import io.flutter.plugin.common.MethodChannel;
 
 public class PlatformUtil extends ChannelDelegateImpl {
   protected static final String LOG_TAG = "PlatformUtil";
-  public static final String METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_inappwebview_platformutil";
+  public static final String METHOD_CHANNEL_NAME = "com.dev-mahmoud-elshenawy/flutter_inappwebview_platformutil";
   
   @Nullable
   public InAppWebViewFlutterPlugin plugin;

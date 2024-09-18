@@ -1,10 +1,10 @@
-package com.pichillilorenzo.flutter_inappwebview_android.in_app_browser;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.in_app_browser;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.pichillilorenzo.flutter_inappwebview_android.ISettings;
-import com.pichillilorenzo.flutter_inappwebview_android.R;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.ISettings;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.R;
 
 import java.util.HashMap;
 import java.util.Map;

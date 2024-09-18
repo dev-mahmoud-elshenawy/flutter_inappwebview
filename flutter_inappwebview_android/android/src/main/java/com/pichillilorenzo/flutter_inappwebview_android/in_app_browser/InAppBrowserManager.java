@@ -19,7 +19,7 @@
  *
  */
 
-package com.pichillilorenzo.flutter_inappwebview_android.in_app_browser;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.in_app_browser;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -35,8 +35,8 @@ import android.webkit.MimeTypeMap;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
-import com.pichillilorenzo.flutter_inappwebview_android.types.ChannelDelegateImpl;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ChannelDelegateImpl;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -54,7 +54,7 @@ import io.flutter.plugin.common.MethodChannel.Result;
  */
 public class InAppBrowserManager extends ChannelDelegateImpl {
   protected static final String LOG_TAG = "InAppBrowserManager";
-  public static final String METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_inappbrowser";
+  public static final String METHOD_CHANNEL_NAME = "com.dev-mahmoud-elshenawy/flutter_inappbrowser";
   
   @Nullable
   public InAppWebViewFlutterPlugin plugin;

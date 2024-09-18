@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.print_job;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.print_job;
 
 import android.os.Build;
 
@@ -6,16 +6,16 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
-import com.pichillilorenzo.flutter_inappwebview_android.types.Disposable;
-import com.pichillilorenzo.flutter_inappwebview_android.types.PrintJobInfoExt;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.Disposable;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.PrintJobInfoExt;
 
 import io.flutter.plugin.common.MethodChannel;
 
 @RequiresApi(api = Build.VERSION_CODES.KITKAT)
 public class PrintJobController implements Disposable  {
   protected static final String LOG_TAG = "PrintJob";
-  public static final String METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappwebview_printjobcontroller_";
+  public static final String METHOD_CHANNEL_NAME_PREFIX = "com.dev-mahmoud-elshenawy/flutter_inappwebview_printjobcontroller_";
   
   @NonNull
   public String id;

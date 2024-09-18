@@ -1,13 +1,13 @@
-package com.pichillilorenzo.flutter_inappwebview_android.webview;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview;
 
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
-import com.pichillilorenzo.flutter_inappwebview_android.headless_in_app_webview.HeadlessInAppWebView;
-import com.pichillilorenzo.flutter_inappwebview_android.headless_in_app_webview.HeadlessInAppWebViewManager;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.FlutterWebView;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.headless_in_app_webview.HeadlessInAppWebView;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.headless_in_app_webview.HeadlessInAppWebViewManager;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.in_app_webview.FlutterWebView;
 
 import java.util.HashMap;
 
@@ -16,7 +16,7 @@ import io.flutter.plugin.platform.PlatformView;
 import io.flutter.plugin.platform.PlatformViewFactory;
 
 public class FlutterWebViewFactory extends PlatformViewFactory {
-  public static final String VIEW_TYPE_ID = "com.pichillilorenzo/flutter_inappwebview";
+  public static final String VIEW_TYPE_ID = "com.dev-mahmoud-elshenawy/flutter_inappwebview";
   private final InAppWebViewFlutterPlugin plugin;
 
   public FlutterWebViewFactory(final InAppWebViewFlutterPlugin plugin) {

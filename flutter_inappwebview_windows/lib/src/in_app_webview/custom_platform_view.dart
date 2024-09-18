@@ -71,7 +71,7 @@ PointerButton _getButton(int value) {
   }
 }
 
-const String _pluginChannelPrefix = 'com.pichillilorenzo/flutter_inappwebview';
+const String _pluginChannelPrefix = 'com.dev-mahmoud-elshenawy/flutter_inappwebview';
 const MethodChannel _pluginChannel = MethodChannel(_pluginChannelPrefix);
 
 class CustomFlutterViewControllerValue {
@@ -127,9 +127,9 @@ class CustomPlatformViewController
         'createInAppWebView', arguments))!;
 
     _methodChannel =
-        MethodChannel('com.pichillilorenzo/custom_platform_view_$_textureId');
+        MethodChannel('com.dev-mahmoud-elshenawy/custom_platform_view_$_textureId');
     _eventChannel = EventChannel(
-        'com.pichillilorenzo/custom_platform_view_${_textureId}_events');
+        'com.dev-mahmoud-elshenawy/custom_platform_view_${_textureId}_events');
     _eventStreamSubscription =
         _eventChannel.receiveBroadcastStream().listen((event) {
       final map = event as Map<dynamic, dynamic>;

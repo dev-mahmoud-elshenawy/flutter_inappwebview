@@ -28,7 +28,7 @@ namespace flutter_inappwebview_plugin
 
   class InAppBrowser {
   public:
-    static inline const std::string METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappbrowser_";
+    static inline const std::string METHOD_CHANNEL_NAME_PREFIX = "com.dev-mahmoud-elshenawy/flutter_inappbrowser_";
     static inline const wchar_t* CLASS_NAME = L"InAppBrowser";
 
     static LRESULT CALLBACK WndProc(HWND window,

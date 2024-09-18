@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.headless_in_app_webview;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.headless_in_app_webview;
 
 import android.app.Activity;
 import android.view.View;
@@ -8,11 +8,11 @@ import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
-import com.pichillilorenzo.flutter_inappwebview_android.Util;
-import com.pichillilorenzo.flutter_inappwebview_android.types.Disposable;
-import com.pichillilorenzo.flutter_inappwebview_android.types.Size2D;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.FlutterWebView;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.Util;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.Disposable;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.Size2D;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.in_app_webview.FlutterWebView;
 
 import java.util.Map;
 
@@ -20,7 +20,7 @@ import io.flutter.plugin.common.MethodChannel;
 
 public class HeadlessInAppWebView implements Disposable {
   protected static final String LOG_TAG = "HeadlessInAppWebView";
-  public static final String METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_headless_inappwebview_";
+  public static final String METHOD_CHANNEL_NAME_PREFIX = "com.dev-mahmoud-elshenawy/flutter_headless_inappwebview_";
   
   @NonNull
   public final String id;

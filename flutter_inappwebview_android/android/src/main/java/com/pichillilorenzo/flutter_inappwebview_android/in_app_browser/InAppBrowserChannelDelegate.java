@@ -1,9 +1,9 @@
-package com.pichillilorenzo.flutter_inappwebview_android.in_app_browser;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.in_app_browser;
 
 import androidx.annotation.NonNull;
 
-import com.pichillilorenzo.flutter_inappwebview_android.types.ChannelDelegateImpl;
-import com.pichillilorenzo.flutter_inappwebview_android.types.InAppBrowserMenuItem;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ChannelDelegateImpl;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.InAppBrowserMenuItem;
 
 import java.util.HashMap;
 import java.util.Map;

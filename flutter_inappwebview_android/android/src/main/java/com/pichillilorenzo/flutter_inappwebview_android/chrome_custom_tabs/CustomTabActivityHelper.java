@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.chrome_custom_tabs;
 
 import android.app.Activity;
 import android.content.Intent;

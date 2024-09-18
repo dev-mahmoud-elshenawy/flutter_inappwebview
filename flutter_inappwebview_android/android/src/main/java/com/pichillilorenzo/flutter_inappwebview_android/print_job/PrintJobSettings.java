@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.print_job;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.print_job;
 
 import android.os.Build;
 
@@ -6,9 +6,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import com.pichillilorenzo.flutter_inappwebview_android.ISettings;
-import com.pichillilorenzo.flutter_inappwebview_android.types.MediaSizeExt;
-import com.pichillilorenzo.flutter_inappwebview_android.types.ResolutionExt;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.ISettings;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.MediaSizeExt;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ResolutionExt;
 
 import java.util.HashMap;
 import java.util.Map;

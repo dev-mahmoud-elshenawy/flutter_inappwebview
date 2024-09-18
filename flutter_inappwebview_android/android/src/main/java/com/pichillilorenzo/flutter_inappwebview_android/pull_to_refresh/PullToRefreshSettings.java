@@ -1,9 +1,9 @@
-package com.pichillilorenzo.flutter_inappwebview_android.pull_to_refresh;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.pull_to_refresh;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.pichillilorenzo.flutter_inappwebview_android.ISettings;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.ISettings;
 
 import java.util.HashMap;
 import java.util.Map;

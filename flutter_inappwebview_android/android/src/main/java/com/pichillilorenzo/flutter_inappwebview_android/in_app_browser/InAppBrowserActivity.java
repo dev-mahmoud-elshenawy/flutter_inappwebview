@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.in_app_browser;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.in_app_browser;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -25,20 +25,20 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.view.menu.MenuBuilder;
 
-import com.pichillilorenzo.flutter_inappwebview_android.R;
-import com.pichillilorenzo.flutter_inappwebview_android.Util;
-import com.pichillilorenzo.flutter_inappwebview_android.find_interaction.FindInteractionController;
-import com.pichillilorenzo.flutter_inappwebview_android.pull_to_refresh.PullToRefreshChannelDelegate;
-import com.pichillilorenzo.flutter_inappwebview_android.pull_to_refresh.PullToRefreshLayout;
-import com.pichillilorenzo.flutter_inappwebview_android.pull_to_refresh.PullToRefreshSettings;
-import com.pichillilorenzo.flutter_inappwebview_android.types.AndroidResource;
-import com.pichillilorenzo.flutter_inappwebview_android.types.Disposable;
-import com.pichillilorenzo.flutter_inappwebview_android.types.InAppBrowserMenuItem;
-import com.pichillilorenzo.flutter_inappwebview_android.types.URLRequest;
-import com.pichillilorenzo.flutter_inappwebview_android.types.UserScript;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewSettings;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.R;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.Util;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.find_interaction.FindInteractionController;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.pull_to_refresh.PullToRefreshChannelDelegate;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.pull_to_refresh.PullToRefreshLayout;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.pull_to_refresh.PullToRefreshSettings;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.AndroidResource;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.Disposable;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.InAppBrowserMenuItem;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.URLRequest;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.UserScript;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.WebViewChannelDelegate;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.in_app_webview.InAppWebView;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewSettings;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -50,7 +50,7 @@ import io.flutter.plugin.common.MethodChannel;
 
 public class InAppBrowserActivity extends AppCompatActivity implements InAppBrowserDelegate, Disposable {
   protected static final String LOG_TAG = "InAppBrowserActivity";
-  public static final String METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappbrowser_";
+  public static final String METHOD_CHANNEL_NAME_PREFIX = "com.dev-mahmoud-elshenawy/flutter_inappbrowser_";
   
   @Nullable
   public Integer windowId;

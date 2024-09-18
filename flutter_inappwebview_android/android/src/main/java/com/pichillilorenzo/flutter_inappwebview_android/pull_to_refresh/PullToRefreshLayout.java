@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.pull_to_refresh;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.pull_to_refresh;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -9,15 +9,15 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
-import com.pichillilorenzo.flutter_inappwebview_android.types.Disposable;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.Disposable;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.in_app_webview.InAppWebView;
 
 import io.flutter.plugin.common.MethodChannel;
 
 public class PullToRefreshLayout extends SwipeRefreshLayout implements Disposable {
   static final String LOG_TAG = "PullToRefreshLayout";
-  public static final String METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappwebview_pull_to_refresh_";
+  public static final String METHOD_CHANNEL_NAME_PREFIX = "com.dev-mahmoud-elshenawy/flutter_inappwebview_pull_to_refresh_";
   
   @Nullable
   public PullToRefreshChannelDelegate channelDelegate;

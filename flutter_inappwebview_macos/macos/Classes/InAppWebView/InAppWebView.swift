@@ -13,7 +13,7 @@ public class InAppWebView: WKWebView, WKUIDelegate,
                             WKNavigationDelegate, WKScriptMessageHandler,
                             WKDownloadDelegate,
                             Disposable {
-    static var METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappwebview_"
+    static var METHOD_CHANNEL_NAME_PREFIX = "com.dev-mahmoud-elshenawy/flutter_inappwebview_"
 
     var id: Any? // viewId
     var plugin: InAppWebViewFlutterPlugin?
@@ -1442,7 +1442,7 @@ public class InAppWebView: WKWebView, WKUIDelegate,
             
             if let scheme = challenge.protectionSpace.protocol, scheme == "https" {
                 // workaround for ProtectionSpace SSL Certificate
-                // https://github.com/pichillilorenzo/flutter_inappwebview/issues/1678
+                // https://github.com/dev-mahmoud-elshenawy/flutter_inappwebview/issues/1678
                 DispatchQueue.global(qos: .background).async {
                     if let sslCertificate = challenge.protectionSpace.sslCertificate {
                         DispatchQueue.main.async {
@@ -1462,7 +1462,7 @@ public class InAppWebView: WKWebView, WKUIDelegate,
                             completionHandler(.cancelAuthenticationChallenge, nil)
                             break
                         case 1:
-                            // workaround for https://github.com/pichillilorenzo/flutter_inappwebview/issues/1924
+                            // workaround for https://github.com/dev-mahmoud-elshenawy/flutter_inappwebview/issues/1924
                             DispatchQueue.global(qos: .background).async {
                                 let exceptions = SecTrustCopyExceptions(serverTrust)
                                 SecTrustSetExceptions(serverTrust, exceptions)

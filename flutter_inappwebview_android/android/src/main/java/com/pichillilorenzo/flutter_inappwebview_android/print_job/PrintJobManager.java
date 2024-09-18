@@ -19,7 +19,7 @@
  *
  */
 
-package com.pichillilorenzo.flutter_inappwebview_android.print_job;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.print_job;
 
 import android.os.Build;
 
@@ -27,8 +27,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
-import com.pichillilorenzo.flutter_inappwebview_android.types.Disposable;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.Disposable;
 
 import java.util.Collection;
 import java.util.HashMap;

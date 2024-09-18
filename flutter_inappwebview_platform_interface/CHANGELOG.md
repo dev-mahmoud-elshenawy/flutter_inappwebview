@@ -4,7 +4,7 @@
 
 ## 1.0.10
 
-- Merged "Added == operator and hashCode to WebUri" [#1941](https://github.com/pichillilorenzo/flutter_inappwebview/pull/1941) (thanks to [daisukeueta](https://github.com/daisukeueta))
+- Merged "Added == operator and hashCode to WebUri" [#1941](https://github.com/dev-mahmoud-elshenawy/flutter_inappwebview/pull/1941) (thanks to [daisukeueta](https://github.com/daisukeueta))
 
 ## 1.0.9
 
@@ -21,7 +21,7 @@
 
 ## 1.0.6
 
-- Added `InAppWebViewSettings.interceptOnlyAsyncAjaxRequests` [#1905](https://github.com/pichillilorenzo/flutter_inappwebview/issues/1905)
+- Added `InAppWebViewSettings.interceptOnlyAsyncAjaxRequests` [#1905](https://github.com/dev-mahmoud-elshenawy/flutter_inappwebview/issues/1905)
 - Added `PlatformInAppWebViewController.clearFormData` method
 - Added `PlatformCookieManager.removeSessionCookies` method
 - Updated `InAppWebViewSettings.useShouldInterceptAjaxRequest` docs

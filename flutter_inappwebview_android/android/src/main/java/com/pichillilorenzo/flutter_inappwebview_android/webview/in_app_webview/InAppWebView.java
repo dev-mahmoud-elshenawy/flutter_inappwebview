@@ -1,7 +1,7 @@
-package com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.in_app_webview;
 
 import static android.content.Context.INPUT_METHOD_SERVICE;
-import static com.pichillilorenzo.flutter_inappwebview_android.types.PreferredContentModeOptionType.fromValue;
+import static com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.PreferredContentModeOptionType.fromValue;
 
 import android.animation.ObjectAnimator;
 import android.animation.PropertyValuesHolder;
@@ -62,42 +62,42 @@ import androidx.webkit.WebSettingsCompat;
 import androidx.webkit.WebViewCompat;
 import androidx.webkit.WebViewFeature;
 
-import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
-import com.pichillilorenzo.flutter_inappwebview_android.R;
-import com.pichillilorenzo.flutter_inappwebview_android.Util;
-import com.pichillilorenzo.flutter_inappwebview_android.content_blocker.ContentBlocker;
-import com.pichillilorenzo.flutter_inappwebview_android.content_blocker.ContentBlockerAction;
-import com.pichillilorenzo.flutter_inappwebview_android.content_blocker.ContentBlockerHandler;
-import com.pichillilorenzo.flutter_inappwebview_android.content_blocker.ContentBlockerTrigger;
-import com.pichillilorenzo.flutter_inappwebview_android.find_interaction.FindInteractionController;
-import com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserDelegate;
-import com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js.ConsoleLogJS;
-import com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js.InterceptAjaxRequestJS;
-import com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js.InterceptFetchRequestJS;
-import com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js.JavaScriptBridgeJS;
-import com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js.OnLoadResourceJS;
-import com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js.OnWindowBlurEventJS;
-import com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js.OnWindowFocusEventJS;
-import com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js.PluginScriptsUtil;
-import com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js.PrintJS;
-import com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js.PromisePolyfillJS;
-import com.pichillilorenzo.flutter_inappwebview_android.print_job.PrintJobController;
-import com.pichillilorenzo.flutter_inappwebview_android.print_job.PrintJobSettings;
-import com.pichillilorenzo.flutter_inappwebview_android.pull_to_refresh.PullToRefreshLayout;
-import com.pichillilorenzo.flutter_inappwebview_android.types.ContentWorld;
-import com.pichillilorenzo.flutter_inappwebview_android.types.DownloadStartRequest;
-import com.pichillilorenzo.flutter_inappwebview_android.types.PluginScript;
-import com.pichillilorenzo.flutter_inappwebview_android.types.PreferredContentModeOptionType;
-import com.pichillilorenzo.flutter_inappwebview_android.types.URLRequest;
-import com.pichillilorenzo.flutter_inappwebview_android.types.UserContentController;
-import com.pichillilorenzo.flutter_inappwebview_android.types.UserScript;
-import com.pichillilorenzo.flutter_inappwebview_android.types.WebViewAssetLoaderExt;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.ContextMenuSettings;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.InAppWebViewInterface;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.JavaScriptBridgeInterface;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.web_message.WebMessageChannel;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.web_message.WebMessageListener;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.R;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.Util;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.content_blocker.ContentBlocker;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.content_blocker.ContentBlockerAction;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.content_blocker.ContentBlockerHandler;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.content_blocker.ContentBlockerTrigger;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.find_interaction.FindInteractionController;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.in_app_browser.InAppBrowserDelegate;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.plugin_scripts_js.ConsoleLogJS;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.plugin_scripts_js.InterceptAjaxRequestJS;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.plugin_scripts_js.InterceptFetchRequestJS;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.plugin_scripts_js.JavaScriptBridgeJS;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.plugin_scripts_js.OnLoadResourceJS;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.plugin_scripts_js.OnWindowBlurEventJS;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.plugin_scripts_js.OnWindowFocusEventJS;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.plugin_scripts_js.PluginScriptsUtil;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.plugin_scripts_js.PrintJS;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.plugin_scripts_js.PromisePolyfillJS;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.print_job.PrintJobController;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.print_job.PrintJobSettings;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.pull_to_refresh.PullToRefreshLayout;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ContentWorld;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.DownloadStartRequest;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.PluginScript;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.PreferredContentModeOptionType;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.URLRequest;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.UserContentController;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.UserScript;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.WebViewAssetLoaderExt;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.ContextMenuSettings;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.InAppWebViewInterface;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.JavaScriptBridgeInterface;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.WebViewChannelDelegate;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.web_message.WebMessageChannel;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.web_message.WebMessageListener;
 
 import org.json.JSONObject;
 
@@ -115,7 +115,7 @@ import io.flutter.plugin.common.MethodChannel;
 
 final public class InAppWebView extends InputAwareWebView implements InAppWebViewInterface {
   protected static final String LOG_TAG = "InAppWebView";
-  public static final String METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappwebview_";
+  public static final String METHOD_CHANNEL_NAME_PREFIX = "com.dev-mahmoud-elshenawy/flutter_inappwebview_";
 
   @Nullable
   public InAppWebViewFlutterPlugin plugin;
@@ -267,7 +267,7 @@ final public class InAppWebView extends InputAwareWebView implements InAppWebVie
       // for some reason, if a WebView is created using a window id,
       // the initial plugin and user scripts injected
       // with WebViewCompat.addDocumentStartJavaScript will not be added!
-      // https://github.com/pichillilorenzo/flutter_inappwebview/issues/1455
+      // https://github.com/dev-mahmoud-elshenawy/flutter_inappwebview/issues/1455
       prepareAndAddUserScripts();
     }
 
@@ -555,8 +555,8 @@ final public class InAppWebView extends InputAwareWebView implements InAppWebVie
     setOnLongClickListener(new OnLongClickListener() {
       @Override
       public boolean onLongClick(View v) {
-        com.pichillilorenzo.flutter_inappwebview_android.types.HitTestResult hitTestResult =
-                com.pichillilorenzo.flutter_inappwebview_android.types.HitTestResult.fromWebViewHitTestResult(getHitTestResult());
+        com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.HitTestResult hitTestResult =
+                com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.HitTestResult.fromWebViewHitTestResult(getHitTestResult());
         if (channelDelegate != null) channelDelegate.onLongPressHitTestResult(hitTestResult);
         return false;
       }
@@ -1485,8 +1485,8 @@ final public class InAppWebView extends InputAwareWebView implements InAppWebVie
   }
 
   private void sendOnCreateContextMenuEvent() {
-    com.pichillilorenzo.flutter_inappwebview_android.types.HitTestResult hitTestResult =
-            com.pichillilorenzo.flutter_inappwebview_android.types.HitTestResult.fromWebViewHitTestResult(getHitTestResult());
+    com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.HitTestResult hitTestResult =
+            com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.HitTestResult.fromWebViewHitTestResult(getHitTestResult());
     if (channelDelegate != null) channelDelegate.onCreateContextMenu(hitTestResult);
   }
 
@@ -1591,7 +1591,7 @@ final public class InAppWebView extends InputAwareWebView implements InAppWebVie
           final ActionMode actionMode,
           final ActionMode.Callback callback
   ) {
-    // fix Android 10 clipboard not working properly https://github.com/pichillilorenzo/flutter_inappwebview/issues/678
+    // fix Android 10 clipboard not working properly https://github.com/dev-mahmoud-elshenawy/flutter_inappwebview/issues/678
     if (!customSettings.useHybridComposition && containerView != null) {
       onWindowFocusChanged(containerView.isFocused());
     }
@@ -1935,7 +1935,7 @@ final public class InAppWebView extends InputAwareWebView implements InAppWebVie
   }
 
   @Override
-  public void postWebMessage(com.pichillilorenzo.flutter_inappwebview_android.types.WebMessage message, Uri targetOrigin, ValueCallback<String> callback) throws Exception {
+  public void postWebMessage(com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.WebMessage message, Uri targetOrigin, ValueCallback<String> callback) throws Exception {
     throw new UnsupportedOperationException();
   }
 
@@ -2021,8 +2021,8 @@ final public class InAppWebView extends InputAwareWebView implements InAppWebVie
   }
 
   @Override
-  public void getHitTestResult(ValueCallback<com.pichillilorenzo.flutter_inappwebview_android.types.HitTestResult> callback) {
-    callback.onReceiveValue(com.pichillilorenzo.flutter_inappwebview_android.types.HitTestResult.fromWebViewHitTestResult(getHitTestResult()));
+  public void getHitTestResult(ValueCallback<com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.HitTestResult> callback) {
+    callback.onReceiveValue(com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.HitTestResult.fromWebViewHitTestResult(getHitTestResult()));
   }
 
   @Nullable

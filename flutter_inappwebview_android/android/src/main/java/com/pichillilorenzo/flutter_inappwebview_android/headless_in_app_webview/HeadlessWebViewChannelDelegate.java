@@ -1,10 +1,10 @@
-package com.pichillilorenzo.flutter_inappwebview_android.headless_in_app_webview;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.headless_in_app_webview;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.pichillilorenzo.flutter_inappwebview_android.types.ChannelDelegateImpl;
-import com.pichillilorenzo.flutter_inappwebview_android.types.Size2D;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ChannelDelegateImpl;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.Size2D;
 
 import java.util.HashMap;
 import java.util.Map;

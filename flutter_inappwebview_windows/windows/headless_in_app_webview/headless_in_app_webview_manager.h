@@ -16,7 +16,7 @@ namespace flutter_inappwebview_plugin
   class HeadlessInAppWebViewManager : public ChannelDelegate
   {
   public:
-    static inline const std::string METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_headless_inappwebview";
+    static inline const std::string METHOD_CHANNEL_NAME = "com.dev-mahmoud-elshenawy/flutter_headless_inappwebview";
 
     const FlutterInappwebviewWindowsPlugin* plugin;
     std::map<std::string, std::unique_ptr<HeadlessInAppWebView>> webViews;

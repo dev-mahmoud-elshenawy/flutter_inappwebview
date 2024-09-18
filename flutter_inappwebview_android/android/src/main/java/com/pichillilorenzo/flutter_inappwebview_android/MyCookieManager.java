@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android;
 
 import android.os.Build;
 import android.util.Log;
@@ -11,7 +11,7 @@ import androidx.annotation.Nullable;
 import androidx.webkit.CookieManagerCompat;
 import androidx.webkit.WebViewFeature;
 
-import com.pichillilorenzo.flutter_inappwebview_android.types.ChannelDelegateImpl;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ChannelDelegateImpl;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -29,7 +29,7 @@ import io.flutter.plugin.common.MethodChannel;
 
 public class MyCookieManager extends ChannelDelegateImpl {
   protected static final String LOG_TAG = "MyCookieManager";
-  public static final String METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_inappwebview_cookiemanager";
+  public static final String METHOD_CHANNEL_NAME = "com.dev-mahmoud-elshenawy/flutter_inappwebview_cookiemanager";
   @Nullable
   public static CookieManager cookieManager;
   @Nullable

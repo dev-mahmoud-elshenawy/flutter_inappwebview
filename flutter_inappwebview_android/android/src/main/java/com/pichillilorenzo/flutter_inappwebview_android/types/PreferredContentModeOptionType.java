@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.types;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types;
 
 public enum PreferredContentModeOptionType {
   RECOMMENDED (0),

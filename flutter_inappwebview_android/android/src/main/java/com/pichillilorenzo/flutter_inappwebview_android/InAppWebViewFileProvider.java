@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android;
 
 import androidx.core.content.FileProvider;
 

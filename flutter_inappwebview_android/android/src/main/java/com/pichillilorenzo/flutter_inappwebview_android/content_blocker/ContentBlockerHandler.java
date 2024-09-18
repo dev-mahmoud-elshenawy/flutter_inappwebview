@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.content_blocker;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.content_blocker;
 
 import android.os.Build;
 import android.os.Handler;
@@ -8,10 +8,10 @@ import android.webkit.WebResourceResponse;
 
 import androidx.annotation.Nullable;
 
-import com.pichillilorenzo.flutter_inappwebview_android.Util;
-import com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js.JavaScriptBridgeJS;
-import com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceRequestExt;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.Util;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.plugin_scripts_js.JavaScriptBridgeJS;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.WebResourceRequestExt;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.in_app_webview.InAppWebView;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;

@@ -9,7 +9,7 @@ import Foundation
 import FlutterMacOS
 
 public class CredentialDatabase: ChannelDelegate {
-    static let METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_inappwebview_credential_database"
+    static let METHOD_CHANNEL_NAME = "com.dev-mahmoud-elshenawy/flutter_inappwebview_credential_database"
     var plugin: InAppWebViewFlutterPlugin?
     static var credentialStore = URLCredentialStorage.shared
 

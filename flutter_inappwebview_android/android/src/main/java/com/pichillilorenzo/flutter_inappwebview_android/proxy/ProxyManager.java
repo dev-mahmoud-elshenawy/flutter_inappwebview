@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.proxy;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.proxy;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -6,9 +6,9 @@ import androidx.webkit.ProxyConfig;
 import androidx.webkit.ProxyController;
 import androidx.webkit.WebViewFeature;
 
-import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
-import com.pichillilorenzo.flutter_inappwebview_android.types.ChannelDelegateImpl;
-import com.pichillilorenzo.flutter_inappwebview_android.types.ProxyRuleExt;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ChannelDelegateImpl;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ProxyRuleExt;
 
 import java.util.HashMap;
 import java.util.concurrent.Executor;
@@ -18,7 +18,7 @@ import io.flutter.plugin.common.MethodChannel;
 
 public class ProxyManager extends ChannelDelegateImpl {
   protected static final String LOG_TAG = "ProxyManager";
-  public static final String METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_inappwebview_proxycontroller";
+  public static final String METHOD_CHANNEL_NAME = "com.dev-mahmoud-elshenawy/flutter_inappwebview_proxycontroller";
 
   @Nullable
   public static ProxyController proxyController;

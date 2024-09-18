@@ -1,6 +1,6 @@
 ## 1.0.13
 
-- Fixed "Android emulator using API 34 fails to draw on resume sometimes" [#1981](https://github.com/pichillilorenzo/flutter_inappwebview/issues/1981)
+- Fixed "Android emulator using API 34 fails to draw on resume sometimes" [#1981](https://github.com/dev-mahmoud-elshenawy/flutter_inappwebview/issues/1981)
 
 ## 1.0.12
 
@@ -19,7 +19,7 @@
 ## 1.0.9
 
 - Updated `flutter_inappwebview_platform_interface` version dependency to `^1.0.7`
-- Fixed "Cloudflare Turnstile failure" [#1738](https://github.com/pichillilorenzo/flutter_inappwebview/issues/1738)
+- Fixed "Cloudflare Turnstile failure" [#1738](https://github.com/dev-mahmoud-elshenawy/flutter_inappwebview/issues/1738)
 - Fixed `InAppWebViewController.callAsyncJavaScript` issue when the last line of the `functionBody` parameter includes a code comment
 
 ## 1.0.8
@@ -32,13 +32,13 @@
 
 ## 1.0.7
 
-- Merged "Fixed error in InterceptAjaxRequestJS 'Failed to set responseType property'" [#1904](https://github.com/pichillilorenzo/flutter_inappwebview/pull/1904) (thanks to [EArminjon](https://github.com/EArminjon))
+- Merged "Fixed error in InterceptAjaxRequestJS 'Failed to set responseType property'" [#1904](https://github.com/dev-mahmoud-elshenawy/flutter_inappwebview/pull/1904) (thanks to [EArminjon](https://github.com/EArminjon))
 - Fixed shouldInterceptAjaxRequest javascript code when overriding XMLHttpRequest.open method parameters
 
 ## 1.0.6
 
-- Fixed "getFavicons: _TypeError: type '_Map<String, dynamic>' is not a subtype of type 'Iterable<dynamic>'" [#1897](https://github.com/pichillilorenzo/flutter_inappwebview/issues/1897)
-- Fixed "onClosed not considering back navigation or up button / close button in ChromeSafariBrowser when using noHistory: true" [#1882](https://github.com/pichillilorenzo/flutter_inappwebview/issues/1882)
+- Fixed "getFavicons: _TypeError: type '_Map<String, dynamic>' is not a subtype of type 'Iterable<dynamic>'" [#1897](https://github.com/dev-mahmoud-elshenawy/flutter_inappwebview/issues/1897)
+- Fixed "onClosed not considering back navigation or up button / close button in ChromeSafariBrowser when using noHistory: true" [#1882](https://github.com/dev-mahmoud-elshenawy/flutter_inappwebview/issues/1882)
 
 ## 1.0.5
 
@@ -55,7 +55,7 @@
 ## 1.0.2
 
 - Updated `flutter_inappwebview_platform_interface` version dependency to `1.0.2` 
-- Fixed "Crash when starting ChromeSafariBrowser on Android java.lang.NoSuchMethodError: No virtual method isEngagementSignalsApiAvailable" [#1881](https://github.com/pichillilorenzo/flutter_inappwebview/issues/1881)
+- Fixed "Crash when starting ChromeSafariBrowser on Android java.lang.NoSuchMethodError: No virtual method isEngagementSignalsApiAvailable" [#1881](https://github.com/dev-mahmoud-elshenawy/flutter_inappwebview/issues/1881)
 
 ## 1.0.1
 

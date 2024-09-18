@@ -38,7 +38,7 @@ class WindowsHttpAuthCredentialDatabase
                   .fromPlatformHttpAuthCredentialDatabaseCreationParams(params),
         ) {
     channel = const MethodChannel(
-        'com.pichillilorenzo/flutter_inappwebview_credential_database');
+        'com.dev-mahmoud-elshenawy/flutter_inappwebview_credential_database');
     handler = handleMethod;
     initMethodCallHandler();
   }

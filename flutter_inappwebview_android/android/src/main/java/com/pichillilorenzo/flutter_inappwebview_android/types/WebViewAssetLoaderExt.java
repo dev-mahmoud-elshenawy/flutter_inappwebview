@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.types;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types;
 
 import android.content.Context;
 import android.os.Build;
@@ -9,8 +9,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.webkit.WebViewAssetLoader;
 
-import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
-import com.pichillilorenzo.flutter_inappwebview_android.Util;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.Util;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -101,7 +101,7 @@ public class WebViewAssetLoaderExt implements Disposable {
   public static class PathHandlerExt implements WebViewAssetLoader.PathHandler, Disposable {
 
     protected static final String LOG_TAG = "PathHandlerExt";
-    public static final String METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappwebview_custompathhandler_";
+    public static final String METHOD_CHANNEL_NAME_PREFIX = "com.dev-mahmoud-elshenawy/flutter_inappwebview_custompathhandler_";
 
     @NonNull
     public String id;

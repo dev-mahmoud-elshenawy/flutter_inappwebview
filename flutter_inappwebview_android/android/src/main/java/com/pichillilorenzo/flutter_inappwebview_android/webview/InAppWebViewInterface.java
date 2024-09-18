@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.webview;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview;
 
 import android.content.Context;
 import android.net.Uri;
@@ -10,16 +10,16 @@ import android.webkit.WebView;
 
 import androidx.annotation.Nullable;
 
-import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
-import com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserDelegate;
-import com.pichillilorenzo.flutter_inappwebview_android.print_job.PrintJobSettings;
-import com.pichillilorenzo.flutter_inappwebview_android.types.ContentWorld;
-import com.pichillilorenzo.flutter_inappwebview_android.types.HitTestResult;
-import com.pichillilorenzo.flutter_inappwebview_android.types.URLRequest;
-import com.pichillilorenzo.flutter_inappwebview_android.types.UserContentController;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewSettings;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.web_message.WebMessageChannel;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.web_message.WebMessageListener;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.in_app_browser.InAppBrowserDelegate;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.print_job.PrintJobSettings;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ContentWorld;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.HitTestResult;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.URLRequest;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.UserContentController;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewSettings;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.web_message.WebMessageChannel;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.web_message.WebMessageListener;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -92,7 +92,7 @@ public interface InAppWebViewInterface {
   WebMessageChannel createCompatWebMessageChannel();
   WebMessageChannel createWebMessageChannel(ValueCallback<WebMessageChannel> callback);
   void postWebMessage(WebMessage message, Uri targetOrigin);
-  void postWebMessage(com.pichillilorenzo.flutter_inappwebview_android.types.WebMessage message, Uri targetOrigin, ValueCallback<String> callback) throws Exception;
+  void postWebMessage(com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.WebMessage message, Uri targetOrigin, ValueCallback<String> callback) throws Exception;
   void addWebMessageListener(WebMessageListener webMessageListener) throws Exception;
   boolean canScrollVertically();
   boolean canScrollHorizontally();

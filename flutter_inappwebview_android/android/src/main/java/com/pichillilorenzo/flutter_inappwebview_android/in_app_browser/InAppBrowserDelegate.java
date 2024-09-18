@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.in_app_browser;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.in_app_browser;
 
 import android.app.Activity;
 

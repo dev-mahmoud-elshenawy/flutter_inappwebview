@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.in_app_webview;
 
 import static android.content.Context.INPUT_METHOD_SERVICE;
 

@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.chrome_custom_tabs;
 
 import android.app.Activity;
 import android.app.PendingIntent;
@@ -22,12 +22,12 @@ import androidx.browser.customtabs.CustomTabsService;
 import androidx.browser.customtabs.CustomTabsSession;
 import androidx.browser.customtabs.EngagementSignalsCallback;
 
-import com.pichillilorenzo.flutter_inappwebview_android.R;
-import com.pichillilorenzo.flutter_inappwebview_android.types.AndroidResource;
-import com.pichillilorenzo.flutter_inappwebview_android.types.CustomTabsActionButton;
-import com.pichillilorenzo.flutter_inappwebview_android.types.CustomTabsMenuItem;
-import com.pichillilorenzo.flutter_inappwebview_android.types.CustomTabsSecondaryToolbar;
-import com.pichillilorenzo.flutter_inappwebview_android.types.Disposable;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.R;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.AndroidResource;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.CustomTabsActionButton;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.CustomTabsMenuItem;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.CustomTabsSecondaryToolbar;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.Disposable;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -38,7 +38,7 @@ import io.flutter.plugin.common.MethodChannel;
 
 public class ChromeCustomTabsActivity extends Activity implements Disposable {
   protected static final String LOG_TAG = "CustomTabsActivity";
-  public static final String METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_chromesafaribrowser_";
+  public static final String METHOD_CHANNEL_NAME_PREFIX = "com.dev-mahmoud-elshenawy/flutter_chromesafaribrowser_";
 
   public String id;
   @Nullable

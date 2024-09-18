@@ -86,7 +86,7 @@ namespace flutter_inappwebview_plugin
   class InAppWebView
   {
   public:
-    static inline const std::string METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappwebview_";
+    static inline const std::string METHOD_CHANNEL_NAME_PREFIX = "com.dev-mahmoud-elshenawy/flutter_inappwebview_";
 
     const FlutterInappwebviewWindowsPlugin* plugin;
     std::variant<std::string, int64_t> id;

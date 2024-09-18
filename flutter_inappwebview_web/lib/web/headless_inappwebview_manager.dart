@@ -16,7 +16,7 @@ class HeadlessInAppWebViewManager {
   HeadlessInAppWebViewManager({required BinaryMessenger messenger}) {
     this._messenger = messenger;
     HeadlessInAppWebViewManager._sharedChannel = MethodChannel(
-      'com.pichillilorenzo/flutter_headless_inappwebview',
+      'com.dev-mahmoud-elshenawy/flutter_headless_inappwebview',
       const StandardMethodCodec(),
       _messenger,
     );

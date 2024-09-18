@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.process_global_config;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.process_global_config;
 
 import android.util.Log;
 
@@ -6,8 +6,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.webkit.ProcessGlobalConfig;
 
-import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
-import com.pichillilorenzo.flutter_inappwebview_android.types.ChannelDelegateImpl;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ChannelDelegateImpl;
 
 import java.util.Map;
 
@@ -16,7 +16,7 @@ import io.flutter.plugin.common.MethodChannel;
 
 public class ProcessGlobalConfigManager extends ChannelDelegateImpl {
   protected static final String LOG_TAG = "ProcessGlobalConfigM";
-  public static final String METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_inappwebview_processglobalconfig";
+  public static final String METHOD_CHANNEL_NAME = "com.dev-mahmoud-elshenawy/flutter_inappwebview_processglobalconfig";
 
   @Nullable
   public InAppWebViewFlutterPlugin plugin;

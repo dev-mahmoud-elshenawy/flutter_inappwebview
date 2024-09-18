@@ -1,10 +1,10 @@
-package com.pichillilorenzo.flutter_inappwebview_android.tracing;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.tracing;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.webkit.TracingController;
 
-import com.pichillilorenzo.flutter_inappwebview_android.ISettings;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.ISettings;
 
 import java.util.ArrayList;
 import java.util.HashMap;

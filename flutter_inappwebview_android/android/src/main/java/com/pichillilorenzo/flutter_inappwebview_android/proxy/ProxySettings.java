@@ -1,10 +1,10 @@
-package com.pichillilorenzo.flutter_inappwebview_android.proxy;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.proxy;
 
 import androidx.annotation.NonNull;
 import androidx.webkit.ProxyConfig;
 
-import com.pichillilorenzo.flutter_inappwebview_android.ISettings;
-import com.pichillilorenzo.flutter_inappwebview_android.types.ProxyRuleExt;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.ISettings;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ProxyRuleExt;
 
 import java.util.ArrayList;
 import java.util.HashMap;

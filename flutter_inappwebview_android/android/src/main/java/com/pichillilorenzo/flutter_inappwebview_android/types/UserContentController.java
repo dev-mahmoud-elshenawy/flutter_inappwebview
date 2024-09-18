@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.types;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types;
 
 import android.annotation.SuppressLint;
 import android.text.TextUtils;
@@ -10,9 +10,9 @@ import androidx.webkit.ScriptHandler;
 import androidx.webkit.WebViewCompat;
 import androidx.webkit.WebViewFeature;
 
-import com.pichillilorenzo.flutter_inappwebview_android.Util;
-import com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js.JavaScriptBridgeJS;
-import com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js.PluginScriptsUtil;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.Util;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.plugin_scripts_js.JavaScriptBridgeJS;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.plugin_scripts_js.PluginScriptsUtil;
 
 import org.json.JSONObject;
 

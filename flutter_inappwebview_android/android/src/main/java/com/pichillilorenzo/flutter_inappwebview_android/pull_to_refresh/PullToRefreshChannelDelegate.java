@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.pull_to_refresh;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.pull_to_refresh;
 
 import android.graphics.Color;
 
@@ -6,7 +6,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import com.pichillilorenzo.flutter_inappwebview_android.types.ChannelDelegateImpl;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.ChannelDelegateImpl;
 
 import java.util.HashMap;
 import java.util.Map;

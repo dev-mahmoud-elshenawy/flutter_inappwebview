@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.webview.web_message;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.web_message;
 
 import android.webkit.ValueCallback;
 
@@ -9,13 +9,13 @@ import androidx.webkit.WebMessagePortCompat;
 import androidx.webkit.WebViewCompat;
 import androidx.webkit.WebViewFeature;
 
-import com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js.JavaScriptBridgeJS;
-import com.pichillilorenzo.flutter_inappwebview_android.types.Disposable;
-import com.pichillilorenzo.flutter_inappwebview_android.types.WebMessageCompatExt;
-import com.pichillilorenzo.flutter_inappwebview_android.types.WebMessagePortCompatExt;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.InAppWebViewInterface;
-import com.pichillilorenzo.flutter_inappwebview_android.types.WebMessagePort;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.plugin_scripts_js.JavaScriptBridgeJS;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.Disposable;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.WebMessageCompatExt;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.WebMessagePortCompatExt;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.InAppWebViewInterface;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types.WebMessagePort;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.in_app_webview.InAppWebView;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -27,7 +27,7 @@ import io.flutter.plugin.common.MethodChannel;
 
 public class WebMessageChannel implements Disposable {
   protected static final String LOG_TAG = "WebMessageChannel";
-  public static final String METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappwebview_web_message_channel_";
+  public static final String METHOD_CHANNEL_NAME_PREFIX = "com.dev-mahmoud-elshenawy/flutter_inappwebview_web_message_channel_";
   
   @NonNull
   public String id;

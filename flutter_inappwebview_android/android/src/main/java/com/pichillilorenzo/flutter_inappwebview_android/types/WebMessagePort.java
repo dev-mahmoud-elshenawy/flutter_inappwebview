@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutter_inappwebview_android.types;
+package com.dev-mahmoud-elshenawy.flutter_inappwebview_android.types;
 
 import android.text.TextUtils;
 import android.webkit.ValueCallback;
@@ -6,10 +6,10 @@ import android.webkit.ValueCallback;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.pichillilorenzo.flutter_inappwebview_android.Util;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.InAppWebViewInterface;
-import com.pichillilorenzo.flutter_inappwebview_android.webview.web_message.WebMessageChannel;
-import com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js.JavaScriptBridgeJS;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.Util;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.InAppWebViewInterface;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.webview.web_message.WebMessageChannel;
+import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.plugin_scripts_js.JavaScriptBridgeJS;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -15,7 +15,7 @@ namespace flutter_inappwebview_plugin
   class InAppBrowserManager : public ChannelDelegate
   {
   public:
-    static inline const std::string METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_inappbrowser";
+    static inline const std::string METHOD_CHANNEL_NAME = "com.dev-mahmoud-elshenawy/flutter_inappbrowser";
 
     const FlutterInappwebviewWindowsPlugin* plugin;
     std::map<std::string, std::unique_ptr<InAppBrowser>> browsers;
