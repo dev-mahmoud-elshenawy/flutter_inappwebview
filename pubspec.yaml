@@ -12,13 +12,13 @@ flutter:
   plugin:
     platforms:
       android:
-        default_package: flutter_inappwebview_android
+        default_package: flutter_inappwebview_android/
       ios:
-        default_package: flutter_inappwebview_ios
+        default_package: flutter_inappwebview_ios/
       macos:
-        default_package: flutter_inappwebview_macos
+        default_package: flutter_inappwebview_macos/
       web:
-        default_package: flutter_inappwebview_web
+        default_package: flutter_inappwebview_web/
 
 dependencies:
   flutter:
