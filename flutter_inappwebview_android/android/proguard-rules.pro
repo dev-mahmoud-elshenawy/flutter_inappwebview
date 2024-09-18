@@ -8,10 +8,10 @@
     public boolean *(android.webkit.WebView, java.lang.String);
     public void *(android.webkit.webView, jav.lang.String);
 }
--keepclassmembers class com.dev-mahmoud-elshenawy.flutter_inappwebview_android$JavaScriptBridgeInterface {
+-keepclassmembers class com.dev_mahmoud_elshenawy.flutter_inappwebview_android$JavaScriptBridgeInterface {
      <fields>;
      <methods>;
      public *;
      private *;
 }
--keep class com.dev-mahmoud-elshenawy.flutter_inappwebview_android.** { *; }
+-keep class com.dev_mahmoud_elshenawy.flutter_inappwebview_android.** { *; }

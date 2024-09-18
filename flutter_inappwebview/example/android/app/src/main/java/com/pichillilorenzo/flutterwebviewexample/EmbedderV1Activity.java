@@ -1,7 +1,7 @@
 package com.dev-mahmoud-elshenawy.flutterwebviewexample;
 
 import android.os.Bundle;
-import com.dev-mahmoud-elshenawy.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.dev_mahmoud_elshenawy.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
 
 @SuppressWarnings("deprecation")
 public class EmbedderV1Activity extends io.flutter.app.FlutterActivity {
